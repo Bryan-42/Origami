@@ -1,0 +1,33 @@
+*{
+    border: solid;
+    background-color: #000000;
+}
+h1{
+    color: #ffffff;
+}
+.header p{
+    color: #2D2E32;
+    position: absolute;
+    transform: translate(-5%,-70%);
+    top: 43%;
+    left: 10%;
+    font-weight: bolder;
+    font-size: 45px;
+    border: solid;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid li{
+    color: #ffffff;
+}
+.grid a{
+    color: #ffffff;
+}
+.item{
+    position: relative;
+}
